@@ -6,16 +6,23 @@
 <meta name="format-detection" content="telephone=no">
 
 <title>SINoALICE ギルド«オバアチャン»</title>
-<meta name="description" content="SINoALICEのギルド«オバアチャン»専用サイトです。">
+<meta name="description" content="無理なく楽しむエンジョイギルドです。">
 <meta name="keywords" content="SINoALICE,シノアリス,ギルド,オバアチャン">
 <meta name="author" content="https://twitter.com/nunifuchisaka">
 
 <!-- ogp -->
 <meta property="og:title" content="SINoALICE ギルド«オバアチャン»">
-<meta property="og:description" content="SINoALICEのギルド«オバアチャン»専用サイトです。">
+<meta property="og:description" content="無理なく楽しむエンジョイギルドです。">
 <meta property="og:url" content="http://sinoalice.fun/">
 <meta property="og:type" content="website">
-<!-- <meta property="og:image" content=""> -->
+<meta property="og:image" content="http://sinoalice.fun/assets/img/og_image.jpg">
+
+<!-- twitter cards -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="SINoALICE ギルド«オバアチャン»" />
+<meta name="twitter:description" content="無理なく楽しむエンジョイギルドです。" />
+<meta name="twitter:url" content="http://sinoalice.fun/" />
+<meta name="twitter:image" content="http://sinoalice.fun/assets/img/og_image.jpg" />
 
 <!-- stylesheet -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/kokoro.css">

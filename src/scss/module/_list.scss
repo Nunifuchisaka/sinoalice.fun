@@ -1,0 +1,15 @@
+.list_1 {
+  @at-root {
+    #{&}__items {
+      text-align: center;
+      letter-spacing: -.4em;
+    }
+    #{&}__item {
+      display: inline-block;
+      margin: 0 6px;
+      text-align: left;
+      letter-spacing: normal;
+      vertical-align: middle;
+    }
+  }
+}
