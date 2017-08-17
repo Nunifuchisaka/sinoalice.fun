@@ -1,0 +1,51 @@
+/*
+# Utilyti : Margin
+*/
+
+.u_mg-t_0 { margin-top: 0 }
+.u_mg-b_0 { margin-bottom: 0 }
+
+
+@for $i from 1 through 50 {
+  
+  $ii: $i * 10;
+  
+  $j: $i / 2;
+  $jj: $j * 10;
+  
+  //margin
+  .u_mg-t_#{$i}em { margin-top: 0em + $i }
+  .u_mg-t_#{$ii}px { margin-top: 0px + $ii }
+  
+  .u_mg-b_#{$i}em { margin-bottom: 0em + $i }
+  .u_mg-b_#{$ii}px { margin-bottom: 0px + $ii }
+  
+}
+
+
+
+/*
+### レイアウト / Layout
+
+レイアウトに関わるmarginやpaddingです。  
+タブレット・スマホ幅のときに数字が半分になります。
+*/
+
+@for $i from 1 through 20 {
+  $ii: $i * 10;
+  
+  $j: $i / 2;
+  $jj: $j * 10;
+  
+  .l_mg-t_#{$ii}px { margin-top: 0px + $ii }
+  .l_mg-b_#{$ii}px { margin-bottom: 0px + $ii }
+  
+  
+  @media screen and ( max-width: $site-width ) {
+    
+    .l_mg-t_#{$ii}px { margin-top: 0px + $jj }
+    .l_mg-b_#{$ii}px { margin-bottom: 0px + $jj }
+    
+  }
+}
+

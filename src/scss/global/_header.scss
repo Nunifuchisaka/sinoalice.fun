@@ -1,0 +1,23 @@
+.g_header_1 {
+  position: relative;
+  @at-root {
+    #{&}__1 {
+      position: relative;
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      border-bottom: solid 1px #333;
+    }
+    #{&}__2 {
+      margin: .5em 10px 0;
+    }
+  }
+  h1 {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: $px13;
+  }
+}

@@ -1,0 +1,41 @@
+article, aside, dialog, figure, footer, header, hgroup, menu, nav, section, video {
+  display: block;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: subpixel-antialiased; //antialiased;
+  overflow-x: hidden;
+  min-width: 320px;
+  height: 100%;
+  font: 14px/1.4 $font-family;
+  color: #fff;
+  background-color: #0C0909;
+}
+
+hr {
+  display: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+a {
+  
+  &:hover {
+    
+  }
+}
+
+strong {
+  
+}
+
+em {
+  
+}
