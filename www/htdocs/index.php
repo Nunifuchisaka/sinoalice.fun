@@ -2,7 +2,7 @@
 <html lang="ja" prefix="og: http://ogp.me/ns#">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=320">
 <meta name="format-detection" content="telephone=no">
 
 <title>SINoALICE ギルド«オバアチャン»</title>
@@ -25,8 +25,8 @@
 <meta name="twitter:image" content="http://sinoalice.fun/assets/img/og_image.jpg" />
 
 <!-- stylesheet -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/kokoro.css">
-<link rel="stylesheet" href="/assets/css/common.css">
+<link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+<link rel="stylesheet" href="/assets/css/common.css?ver=2">
 <link rel="stylesheet" href="/assets/css/utility.css">
 <link rel="stylesheet" href="/assets/css/patch.css">
 
@@ -46,7 +46,45 @@ require_once('assets/html/header.php');
 ?>
 
 <div class="l_container_1">
-  <p>作成中</p>
+  
+  <section class="section_1">
+    <h1 class="section_1__h1">ギルドの目的</h1>
+    <div class="section_1__1">
+      <p>シノアリスを無理なく楽しむギルドです。</p>
+      <p>コロシアム参戦率100%を目指しています。</p>
+      <p>コロシアム不参加の場合に一報を入れる必要はありませんが、できれば一瞬だけでも参戦していただけると嬉しいです。</p>
+    </div>
+  </section>
+  
+  <section class="section_1 l_mg-t_40px">
+    <h1 class="section_1__h1">特記事項</h1>
+    <div class="section_1__1">
+      <p>・しばらくの間、新規取り込みのため無言勧誘、無言脱退をする場合があります。</p>
+      <p>・総合値や課金額などは不問です。</p>
+      <p>・手伝って欲しい高難易度のモノガタリなどがある場合は、ギルドチャットのほうで呼びかけてください。</p>
+      <p>・モノガタリの共闘は主にコロシアム後の20分間くらいはギルドマスターがだいたい参戦できます。</p>
+      <p>・ギルドガチャは基本的に欲しいものがでたら当てた人がそのまま手に入れていただいて大丈夫です。</p>
+      <p>・<a href="https://twitter.com/nunifuchisaka">ギルドマスターのTwitterはこちら</a></p>
+    </div>
+  </section>
+  
+  <section class="section_1 l_mg-t_40px">
+    <h1 class="section_1__h1">ギルド名の由来</h1>
+    <div class="section_1__1">
+      <p>ニーアレプリカント・ゲシュタルトのカイネさんのおばあちゃんからいただきました。<br />オバアチャンという曲もあります。<br /><a href="https://dic.pixiv.net/a/%E3%82%AB%E3%82%A4%E3%83%8D" target="_blank">【ピクシブ百科事典】カイネ とは</a><br />※ネタバレを含みます</p>
+    </div>
+  </section>
+  
+  <section class="section_1 l_mg-t_40px">
+    <h1 class="section_1__h1">注意事項</h1>
+    <div class="section_1__1">
+      <p>コロシアム不参加が続く場合は、他の新規の方を優先する場合があります。</p>
+      <p>その他万が一問題が発生した場合はサブマスターや他メンバーと協議の上対処いたします。</p>
+    </div>
+  </section>
+  
+  
+  
 </div><!-- /.l_container_1 -->
 
 <?php

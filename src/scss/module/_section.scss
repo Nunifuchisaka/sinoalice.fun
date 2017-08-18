@@ -1,0 +1,11 @@
+.section_1 {
+  position: relative;
+  @at-root {
+    #{&}__h1 {
+      color: #D53E62;
+    }
+    #{&}__1 {
+      
+    }
+  }
+}
