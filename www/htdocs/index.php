@@ -48,10 +48,17 @@ require_once('assets/html/header.php');
 <div class="l_container_1">
   
   <section class="section_1">
+    <h1 class="section_1__h1">お知らせ 2017.10.18</h1>
+    <div class="section_1__1">
+      <p>22時は絶賛労働中だという方が複数いることが判明しましたので、<a href="https://docs.google.com/forms/d/e/1FAIpQLScc4uFVHCvdp2SMwJCKTBythIkag5O_164sV3rOsyYhXV9q8g/viewform?usp=sf_link">第1回コロシアム時間帯アンケート</a>を実施します。<br />団員のみなさまは回答お願いします。<br />回答が集まってきたら結果をコロシアム後のギルドチャットで共有しますので、みんなが無理なくコロシアムに参戦しやすい時間帯を模索しましょう。</p>
+    </div>
+  </section>
+  
+  <section class="section_1 l_mg-t_40px">
     <h1 class="section_1__h1">ギルドの目的</h1>
     <div class="section_1__1">
       <p>シノアリスを無理なく楽しむギルドです。</p>
-      <p>コロシアム参戦率100%を目指しています。<br />最近の平均参戦率は10人くらいです。</p>
+      <p>コロシアム参戦率100%を目指しています。<br />最近の平均参戦率は8人くらいです。</p>
     </div>
   </section>
   
