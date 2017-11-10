@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@import "compass",
+        "tool/font-size/ptp-14",
+        "tool/mixin",
+        "tool/function",
+        "tool/site-setting";
+
+#dashboard-widgets {
+  #semperplugins-rss-feed,
+  #blc_dashboard_widget {
+    display: none;
+  }
+}

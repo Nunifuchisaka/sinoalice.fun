@@ -1,2 +1,2 @@
 # sinoalice.fun
-シノアリスのギルド専用サイト
+SINoALICEギルド《オバアチャン》専用サイト

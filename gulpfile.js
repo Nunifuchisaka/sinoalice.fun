@@ -21,7 +21,7 @@ gulp.task('compass_compile', function(){
       config_file: 'src/config.rb',
       style: 'compressed',
       comments : false,
-      css : 'www/htdocs/assets/css',
+      css : 'www/wp_htdocs/wp4grandma/wp-content/themes/grandma/assets/css',
       sass: 'src/scss',
       sourcemap: false
     }));
@@ -45,7 +45,7 @@ gulp.task('js_common_compile', function(){
     .pipe(concat('common.js'))
     .pipe(uglify())
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('www/htdocs/assets/js'));
+    .pipe(gulp.dest('www/wp_htdocs/wp4grandma/wp-content/themes/grandma/assets/js'));
 });
 
 
